@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import HeroSlider from '../components/HeroSlider';
 import ImageModal from '../components/ImageModal';
 import { heroSliderImages, allBagsGallery } from '../data/images';
+import VideoPlayer from '../components/VideoPlayer';
 
 const Home = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -60,7 +61,7 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
               </div> */}
-              <video src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" loop className="w-full h-full object-cover" />
+              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} controls={"true"} autoPlay="true" muted loop className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
