@@ -23,7 +23,7 @@ const Home = () => {
           </h1>
           <div className="text-lg text-gray-700 leading-relaxed space-y-4">
             <p>
-              Our factory has an experience in manufacturing of bags over <span className="font-bold text-primary">20 years</span>. 
+              Our factory has an experience in manufacturing of bags over <span className="font-bold text-primary">25 years</span>. 
               Our products includes <strong>Documents Bags, School Bags, College Bags, Laptop Bags, Handbags, 
               Tiffin bags, Pencil pouch</strong> made from foam leather, PVC, PU, polyster and nylon etc.
             </p>

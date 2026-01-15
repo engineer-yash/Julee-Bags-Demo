@@ -19,7 +19,7 @@ const AboutJulee = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
             <div className="text-lg text-gray-700 leading-relaxed space-y-4">
               <p>
-                With over <strong className="text-primary">20 years of experience</strong> in bag manufacturing, 
+                With over <strong className="text-primary">25 years of experience</strong> in bag manufacturing, 
                 Julee Bags has established itself as a trusted name in the industry. Since our inception, 
                 we have been committed to producing high-quality bags that combine functionality, durability, 
                 and style.

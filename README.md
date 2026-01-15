@@ -115,7 +115,7 @@ vercel
 
 ## 🤝 About Julee Bags
 
-Julee Bags has over 20 years of experience in manufacturing quality bags. We specialize in Documents Bags, School Bags, College Bags, Laptop Bags, Handbags, Tiffin bags, and Pencil pouches made from foam leather, PVC, PU, polyester, and nylon.
+Julee Bags has over 25 years of experience in manufacturing quality bags. We specialize in Documents Bags, School Bags, College Bags, Laptop Bags, Handbags, Tiffin bags, and Pencil pouches made from foam leather, PVC, PU, polyester, and nylon.
 
 **Our Motto**: Customer satisfaction is our moto.
 

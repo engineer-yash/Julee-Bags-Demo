@@ -11,7 +11,7 @@ const WildAdventure = () => {
       <div 
         className="relative bg-cover bg-center h-64 md:h-96 flex items-center justify-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.juleebags.com/uploads/1.jpeg)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.juleebags.com/images/ban9.jpg)',
         }}
       >
         <div className="text-center text-white">

@@ -57,11 +57,15 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="flex items-start">
                 <span className="mr-2">📍</span>
-                <span>531B, Ganesh Peth, Near Kasturi Chowk Lane,<br />Opp. Vithhal Mandir, Pune-2</span>
+                <a href="https://maps.app.goo.gl/8AVfpzLY2dY8EVJH9" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                <span>531B, Ganesh Peth, Near Kasturi Chowk Lane,<br />Opp. Vithhal Mandir, Pune-411002,<br />Maharashtra, India</span>
+                </a>
               </p>
               <p className="flex items-center">
                 <span className="mr-2">📞</span>
-                <span>7498821933</span>
+                <a href="tel:+917498821933" className="hover:text-primary transition-colors">
+                  +917498821933
+                </a>
               </p>
               <p className="flex items-center">
                 <span className="mr-2">📧</span>
