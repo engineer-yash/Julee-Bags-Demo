@@ -61,7 +61,7 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
               </div> */}
-              <video className="w-full h-full object-cover rounded-lg" autoPlay loop>
+              <video autoPlay loop>
                 <source src="https://www.juleebags.com/vedio/v1.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
