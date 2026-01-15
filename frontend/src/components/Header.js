@@ -33,11 +33,11 @@ const Header = () => {
       <div className="bg-secondary text-white py-2">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center text-sm">
           <div className="flex items-center space-x-4 mb-2 sm:mb-0">
-            <span>📞 7498821933</span>
-            <span className="hidden md:inline">📧 sales@juleebags.com</span>
+            <span>📞 <a href="tel:7498821933">7498821933</a></span>
+            <span>📧 <a href="mailto:sales@juleebags.com">sales@juleebags.com</a> | <a href="mailto:uttamdhoka.96230@gmail.com">uttamdhoka.96230@gmail.com</a></span>
           </div>
           <div className="text-center">
-            <span>Welcome to Julee Bags - बस नाम ही काफी है</span>
+            <span>Welcome to Julee Bags - बस नाम ही काफी है!</span>
           </div>
         </div>
       </div>
