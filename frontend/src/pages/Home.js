@@ -25,14 +25,15 @@ const Home = () => {
             <p>
               Our factory has an experience in manufacturing of bags over <span className="font-bold text-primary">20 years</span>. 
               Our products includes <strong>Documents Bags, School Bags, College Bags, Laptop Bags, Handbags, 
-              Tiffin bags, Pencil pouch</strong> made from foam leather, PVC, PU, polyester and nylon etc.
+              Tiffin bags, Pencil pouch</strong> made from foam leather, PVC, PU, polyster and nylon etc.
             </p>
             <p>
-              Our service includes producing according to customer's designs. Customer satisfaction is our motto. 
-              We welcome the customers from all over the world to hold business and order with us.
+              Our service includes producing according to customer's designs. 
+              <strong className="text-primary"> Customer satisfaction is our moto.</strong> We welcome the customers from all 
+              over the world to hold business and order with us.
             </p>
             <p className="text-primary font-semibold">
-              Sincerely hope to build close co-operation relationship with all honest customers.
+              Sincerely hope to build close co-operation relatioship with all honest customers.
             </p>
           </div>
         </div>
