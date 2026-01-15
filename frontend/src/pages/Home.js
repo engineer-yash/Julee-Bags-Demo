@@ -47,7 +47,7 @@ const Home = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <div className="relative bg-gray-800 rounded-lg shadow-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white">
                   <svg
                     className="w-20 h-20 mx-auto mb-4 opacity-50"
@@ -59,7 +59,8 @@ const Home = () => {
                   <p className="text-xl font-semibold">Promo Video Coming Soon</p>
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
-              </div>
+              </div> */}
+              <video src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" muted loop className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
