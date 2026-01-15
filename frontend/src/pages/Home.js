@@ -49,7 +49,7 @@ const Home = () => {
             <div className="relative bg-gray-800 rounded-lg shadow-xl" style={{ aspectRatio: '16/9' }}>
               <iframe
                 className="absolute inset-0 w-full h-full rounded-lg"
-                src="https://drive.google.com/file/d/1r-kyoosLPZ1sJTTYEMNDQnDCupmIduXI/view?usp=sharing"
+                src="https://drive.google.com/file/d/1r-kyoosLPZ1sJTTYEMNDQnDCupmIduXI/view?usp=drive_link"
                 title="Julee Bags Story"
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
