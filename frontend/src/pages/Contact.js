@@ -49,14 +49,15 @@ const Contact = () => {
 
       <div className="container mx-auto px-4 py-12">
         <iframe
+          title="Julee Bags Location Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.90446517809!2d73.86017000977053!3d18.510957269397124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06995555555%3A0x1db0f45e5d079ebf!2sJulee%20Bags!5e1!3m2!1sen!2sin!4v1768468953084!5m2!1sen!2sin"
-          width="600"
-          height="450"
-          style="border:0;"
-          allowfullscreen=""
+          className="w-full h-64 md:h-96 mb-12 rounded-lg shadow-lg"
+          style={{ border: 0 }}
+          allowFullScreen
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
