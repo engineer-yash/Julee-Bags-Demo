@@ -37,7 +37,7 @@ const Header = () => {
             <span className="hidden md:inline">📧 sales@juleebags.com</span>
           </div>
           <div className="text-center">
-            <span>Welcome to Julee Bags - Quality Bags Manufacturer</span>
+            <span>Welcome to Julee Bags - बस नाम ही काफी है</span>
           </div>
         </div>
       </div>
