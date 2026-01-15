@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -21,15 +21,15 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: '',
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
     });
   };
 
@@ -38,28 +38,50 @@ const Contact = () => {
       {/* Page Header */}
       <div className="bg-secondary text-white py-8">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl md:text-4xl font-bold text-center">Contact Us</h1>
-          <p className="text-center mt-2 text-gray-300">We'd love to hear from you</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-center">
+            Contact Us
+          </h1>
+          <p className="text-center mt-2 text-gray-300">
+            We'd love to hear from you
+          </p>
         </div>
       </div>
 
       <div className="container mx-auto px-4 py-12">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.90446517809!2d73.86017000977053!3d18.510957269397124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06995555555%3A0x1db0f45e5d079ebf!2sJulee%20Bags!5e1!3m2!1sen!2sin!4v1768468953084!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.90446517809!2d73.86017000977053!3d18.510957269397124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06995555555%3A0x1db0f45e5d079ebf!2sJulee%20Bags!5e1!3m2!1sen!2sin!4v1768468953084!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                Get in Touch
+              </h2>
               <p className="text-gray-700 mb-8">
-                Have questions about our products or services? We're here to help! 
-                Reach out to us and we'll respond as soon as possible.
+                Have questions about our products or services? We're here to
+                help! Reach out to us and we'll respond as soon as possible.
               </p>
 
               {/* Contact Details */}
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-primary text-white p-3 rounded-full mr-4">
-                    <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
                       <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
@@ -67,8 +89,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      531B, Ganesh Peth, Near Kasturi Chowk Lane,<br />
-                      Opp. Vithhal Mandir, Pune-411002<br />
+                      531B, Ganesh Peth, Near Kasturi Chowk Lane,
+                      <br />
+                      Opp. Vithhal Mandir, Pune-411002
+                      <br />
                       Maharashtra, India
                     </p>
                   </div>
@@ -76,14 +100,25 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-primary text-white p-3 rounded-full mr-4">
-                    <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
                       <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:7498821933" className="hover:text-primary transition-colors">
+                      <a
+                        href="tel:7498821933"
+                        className="hover:text-primary transition-colors"
+                      >
                         +91 7498821933
                       </a>
                     </p>
@@ -92,14 +127,25 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-primary text-white p-3 rounded-full mr-4">
-                    <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
                       <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:sales@juleebags.com" className="hover:text-primary transition-colors">
+                      <a
+                        href="mailto:sales@juleebags.com"
+                        className="hover:text-primary transition-colors"
+                      >
                         sales@juleebags.com
                       </a>
                     </p>
@@ -108,14 +154,25 @@ const Contact = () => {
 
                 <div className="flex items-start">
                   <div className="bg-primary text-white p-3 rounded-full mr-4">
-                    <svg className="w-6 h-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
                       <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Business Hours</h3>
+                    <h3 className="font-bold text-gray-800 mb-1">
+                      Business Hours
+                    </h3>
                     <p className="text-gray-600">
-                      Monday - Saturday: 9:00 AM - 7:00 PM<br />
+                      Monday - Saturday: 9:00 AM - 7:00 PM
+                      <br />
                       Sunday: Closed
                     </p>
                   </div>
@@ -125,8 +182,10 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h2>
-              
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                Send us a Message
+              </h2>
+
               {submitted && (
                 <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6">
                   Thank you! Your message has been sent successfully.
@@ -135,7 +194,10 @@ const Contact = () => {
 
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">
-                  <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-gray-700 font-semibold mb-2"
+                  >
                     Name *
                   </label>
                   <input
@@ -150,7 +212,10 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-4">
-                  <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-gray-700 font-semibold mb-2"
+                  >
                     Email *
                   </label>
                   <input
@@ -165,7 +230,10 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-4">
-                  <label htmlFor="phone" className="block text-gray-700 font-semibold mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block text-gray-700 font-semibold mb-2"
+                  >
                     Phone
                   </label>
                   <input
@@ -179,7 +247,10 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-4">
-                  <label htmlFor="subject" className="block text-gray-700 font-semibold mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-gray-700 font-semibold mb-2"
+                  >
                     Subject *
                   </label>
                   <input
@@ -194,7 +265,10 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-6">
-                  <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-gray-700 font-semibold mb-2"
+                  >
                     Message *
                   </label>
                   <textarea
