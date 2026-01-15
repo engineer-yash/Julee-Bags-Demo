@@ -61,7 +61,7 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
               </div> */}
-              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" muted loop className="w-full h-full" />
+              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" loop className="w-full h-full" />
             </div>
           </div>
         </div>
