@@ -1,10 +1,10 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 
 const HeroSlider = ({ images }) => {
   return (
@@ -22,7 +22,7 @@ const HeroSlider = ({ images }) => {
           }}
           loop={true}
           className="rounded-lg shadow-lg overflow-hidden"
-          style={{ width: '100%' }}
+          style={{ width: "100%" }}
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
@@ -64,16 +64,11 @@ const HeroSlider = ({ images }) => {
           opacity: 1;
         }
 
-        @media (max-width: 640px) {
-          .swiper-button-next,
-          .swiper-button-prev {
-            width: 30px;
-            height: 30px;
-          }
-
-          .swiper-button-next:after,
-          .swiper-button-prev:after {
-            font-size: 16px;
+        /* Hide arrows on mobile */
+        @media (max-width: 768px) {
+          .swiper-pagination-bullet,
+          .swiper-pagination-bullet-active {
+            display: none;
           }
         }
       `}</style>
