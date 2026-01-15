@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import HeroSlider from '../components/HeroSlider';
 import ImageModal from '../components/ImageModal';
 import { heroSliderImages, allBagsGallery } from '../data/images';
-import VideoPlayer from '../components/VideoPlayer';
 
 const Home = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -48,20 +47,14 @@ const Home = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <div className="relative bg-gray-800 rounded-lg shadow-xl" style={{ aspectRatio: '16/9' }}>
-              {/* <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <svg
-                    className="w-20 h-20 mx-auto mb-4 opacity-50"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
-                  </svg>
-                  <p className="text-xl font-semibold">Promo Video Coming Soon</p>
-                  <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
-                </div>
-              </div> */}
-              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" muted loop className="w-full h-full" />
+              <iframe
+                className="absolute inset-0 w-full h-full rounded-lg"
+                src="https://www.juleebags.com/vedio/v1.mp4"
+                title="Julee Bags Story"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
