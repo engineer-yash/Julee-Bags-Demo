@@ -47,7 +47,7 @@ const Home = () => {
             Our Story
           </h2>
           <div className="max-w-4xl mx-auto">
-            <div className="relative bg-gray-800 rounded-lg shadow-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>
+            <div className="relative bg-gray-800 rounded-lg shadow-xl" style={{ aspectRatio: '16/9' }}>
               {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white">
                   <svg
@@ -61,7 +61,7 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
               </div> */}
-              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} controls="true" autoPlay="true" muted loop className="w-full h-full" />
+              <VideoPlayer src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" muted loop className="w-full h-full" />
             </div>
           </div>
         </div>
