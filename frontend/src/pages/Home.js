@@ -60,7 +60,7 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-2">Experience the quality and craftsmanship of Julee Bags</p>
                 </div>
               </div> */}
-              <video src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" muted loop className="w-full h-full object-cover" />
+              <video src={'https://www.juleebags.com/vedio/v1.mp4'} autoPlay="true" loop className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
