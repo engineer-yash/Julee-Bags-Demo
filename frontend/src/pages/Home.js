@@ -52,7 +52,7 @@ const Home = () => {
                 src="https://drive.google.com/file/d/1r-kyoosLPZ1sJTTYEMNDQnDCupmIduXI/view?usp=sharing"
                 title="Julee Bags Story"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="autoplay; encrypted-media"
                 allowFullScreen
               ></iframe>
             </div>
